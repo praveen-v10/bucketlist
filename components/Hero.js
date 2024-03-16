@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 function Hero() {
   return (
@@ -8,11 +9,14 @@ function Hero() {
 
 </div> */}
         <div className="">
-          <img
-            src="https://firebasestorage.googleapis.com/v0/b/gift-c0314.appspot.com/o/MacBook%20Air%20-%205%20(2).png?alt=media&token=52c66a72-acd2-4837-b068-ce161c2d2869"
-            className="w-full h-full "
-            alt="Image"
-          />
+        <Image
+      src="https://firebasestorage.googleapis.com/v0/b/gift-c0314.appspot.com/o/MacBook%20Air%20-%205%20(2).png?alt=media&token=52c66a72-acd2-4837-b068-ce161c2d2869"
+      alt="Picture of the author"
+      width={0}
+  height={0}
+  sizes="100vw"
+  style={{ width: '100%', height: 'auto' }}
+    />
           {/* <div className="absolute inset-0 flex flex-col justify-center items-center text-center">
             <div
               className="bg-white bg-opacity-90 p-6 rounded-lg flex justify-center items-center"
