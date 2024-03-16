@@ -9,7 +9,7 @@ function Hero() {
 </div> */}
         <div className="">
           <img
-            src="/assets/bg/bg3.png"
+            src="https://firebasestorage.googleapis.com/v0/b/gift-c0314.appspot.com/o/MacBook%20Air%20-%205%20(2).png?alt=media&token=52c66a72-acd2-4837-b068-ce161c2d2869"
             className="w-full h-full "
             alt="Image"
           />
